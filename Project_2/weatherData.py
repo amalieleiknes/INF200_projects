@@ -17,9 +17,7 @@ def weather(fileName):
                 "Maximum air temp": airTempMax,
                 "Global temp": glob,
                 "Global % UV": UVglob
-
             }
-
             print(temperatureDictionary)
 
 
