@@ -1,7 +1,7 @@
 # printing out weather data from input file
 def weather(fileName):
     with open(fileName, 'r') as infile:
-        header = infile.readline().strip()
+        infile.readline().strip()
         infile = infile.read().split('\n')
         for line in infile:
             date, airTemp, airTempMin, airTempMax, glob, UVglob = line.split(';')
