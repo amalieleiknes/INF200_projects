@@ -1,23 +1,5 @@
 import re
 
-'''
-def markingErrors(inputSentence):
-    print(inputSentence)
-    matches = []
-    for match in re.finditer(r"\b(\w+)\s+\1\b", inputSentence):
-        matches += [match.start(), match.end()]
-
-    for m in matches:
-        print(m)
-
-
-markingErrors("I can see the the red rose rose and the purple lilac.")
-
-
-
-'''
-import re
-
 
 def markingErrors(inputSentence):
     print(inputSentence)
@@ -31,6 +13,7 @@ def markingErrors(inputSentence):
             print((startNext-endPrev)*" ", end='')
             print('' * match.start() + '*' * (match.end() - match.start()), end='')
         endPrev = match.end()
+
 
 markingErrors("I can see the the red rose rose and the purple lilac.")
 
