@@ -28,3 +28,10 @@ def printFromList(fileName):
 
 
 printFromList('sentences')
+
+
+# lag også denne med en regex som kan finne ord med store bokstaver
+def printAlternative():
+    # prøv å legge inn med re.findall(pattern, i), hvor i er hvert ord i en setning som tas inn i en løkke. print(
+    # values and format)
+    print("hei")
