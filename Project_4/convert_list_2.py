@@ -30,7 +30,7 @@ def to_dataframe(data):
         return average_age
 
 
-print(to_dataframe(list1))
-print(to_dataframe(list2))
+# print(to_dataframe(list1))
+# print(to_dataframe(list2))
 # print(to_dataframe(list3))
 
